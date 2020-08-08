@@ -7,8 +7,8 @@ while row_index < src.count do
   element_index = 0 
   while element_index < src[row_index].count do
     p src[inner_count].even?
-    inner_count += 1
+    element_index += 1
   end
-  count += 1
+  row_index += 1
 end
 end
