@@ -6,7 +6,7 @@ count = 0
 while count < array.length do 
   inner_count = 0 
   while inner_count < array[count].length do
-    p array[count][inner_count]
+    p array[count][inner_count].even?
     inner_count += 1
   end
   count += 1
